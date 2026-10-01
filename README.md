@@ -3,11 +3,11 @@ Welcome to my Git repo for my master thesis on **Dynamic Modelling and Control o
 
 
 ## About
-The project was to expand on my research and development project from the previous semester where I designed a control solution around the [PEM Electrolysis System](https://se.mathworks.com/help/simscape/ug/pem-electrolysis-system.html) from MATLAB by creating an equivalent circuit model based on a Randles circuit which imitates the electrical properties of electrodes. Elecrolyser equivalent was connected to a 
+The project was to expand on my research and development project from the previous semester where I designed a control solution around the [PEM Electrolysis System](https://se.mathworks.com/help/simscape/ug/pem-electrolysis-system.html) from MATLAB by creating an equivalent circuit model based on a Randles circuit which imitates the electrical properties of electrodes. The electrolyser equivalent was connected to a buck converter to step down the high voltage photovoltaic arrays to a more sensible level for electrolysers (25V), since they're high current low voltage devices. The project was simulated with low temporal resolution across hours to limit RAM usage and 
 
+
+The goal of the Thesis was to take the findings of the research and development project and continue from there, introducing a three phase power source emulating that of grid-connected wind turbines rather than photovoltaics. Additionally Model Predictive Control was used and compared to PID in ease of implementation, stability and control. Thermal. The system was placed under heavy stress from factors such as grid faults, shorts, Switch failure of the interleaved buck converter. Heavy harmonics caused by other devices. The noise suppression capabilities of PID and MPC were also tested against each other with reference to a completely non-controlled noise output.
 ![](figures/Topology.png)
-
-The goal of the project was to control an electrolyser in Simulink in grid-connected setting.
 
 
 ## The process
