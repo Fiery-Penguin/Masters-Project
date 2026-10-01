@@ -1,12 +1,11 @@
 # Master Thesis
 
-![](figures/FullSchematic.png)
 
 Welcome to my Git repo for my master thesis on **Dynamic Modelling and Control of a Grid-Connected PEM Electrolyser Using PID and MPC**
 
 The full thesis can be found here: [Thesis.pdf](Thesis.pdf).
 
-
+![](figures/FullSchematic.png)
 
 ## About
 The project was completed in two parts, the first being through my research and development project and the later being the thesis building on top of said project 
